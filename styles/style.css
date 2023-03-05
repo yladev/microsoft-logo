@@ -1,0 +1,69 @@
+*{
+    background: #000;
+}
+
+h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-right: 42px;
+}
+
+span:hover{
+    color: #fff;
+    transition: 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.firstLetter{
+    color: #f35322;
+}
+
+.secondLetter, .thirdLetter, .fourthLetter{
+    padding-left: 5px;
+}
+
+.secondLetter{
+    color: #81dc05;
+}
+
+.thirdLetter{
+    color: #05a6f1;
+}
+
+.fourthLetter{
+    color: #ffba05;
+}
+
+.microsoft-logo{
+    width: 350px;
+    margin: 25px auto;
+}
+
+.microsoft-logo:hover{
+    cursor: pointer;
+}
+
+.square.red{
+    background: #f35322;
+}
+
+.square.green{
+    background: #81dc05;
+}
+
+.square.blue{
+    background: #05a6f1;
+}
+
+.square.yellow{
+    background: #ffba05;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
